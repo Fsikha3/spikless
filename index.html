@@ -767,7 +767,7 @@
         // COMPONENTS
         const FoodImg = ({food, size=120}) => {
             const [failed, setFailed] = useState(false);
-            const path = /stitch/ to https://pub-ddd3bc096e9a4dfaa2354a265d1390ee.r2.dev/
+            const path = "https://pub-ddd3bc096e9a4dfaa2354a265d1390ee.r2.dev/" + food.stitchFile + ".png";
             
             if (failed || !food.stitchFile) {
                 return <div className="food-img-ph" style={{fontSize: size*0.5}}>{food.e}</div>;
